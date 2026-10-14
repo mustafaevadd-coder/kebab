@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Шашлык</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background: #fff5e6; color: #333; }
+        header { background: #b23a00; color: white; text-align: center; padding: 40px 20px; }
+        header h1 { margin: 0 0 10px; font-size: 36px; }
+        nav { background: #8a2d00; text-align: center; padding: 12px; }
+        nav a { color: white; text-decoration: none; margin: 0 15px; font-size: 16px; }
+        nav a:hover { text-decoration: underline; }
+        main { max-width: 900px; margin: 30px auto; padding: 0 20px; }
+        .card { background: white; padding: 25px; margin-bottom: 25px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); overflow: hidden; }
+        .card h2 { margin-top: 0; color: #b23a00; }
+        .card img { width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin-bottom: 15px; }
+        footer { text-align: center; padding: 25px; color: #888; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>{{TITLE}}</h1>
+        <p>{{SUBTITLE}}</p>
+    </header>
+    <nav>
+        <a href="#baraniy">Бараний</a>
+        <a href="#kurinuy">Куриный</a>
+        <a href="#ovoshchnoy">Овощной</a>
+    </nav>
+    <main>
+        <div class="card" id="baraniy">
+            <img src="images/baraniy.jpg" alt="Бараний шашлык">
+            <h2>Бараний шашлык</h2>
+            <p>Классика кавказской кухни. Сочный, ароматный, с луком и специями. Маринуется 4–6 часов.</p>
+        </div>
+        <div class="card" id="kurinuy">
+            <img src="images/kurinuy.jpg" alt="Куриный шашлык">
+            <h2>Куриный шашлык</h2>
+            <p>Нежное мясо, маринуется быстро. Идеально для летнего вечера.</p>
+        </div>
+        <div class="card" id="ovoshchnoy">
+            <img src="images/ovoshchnoy.jpg" alt="Овощной шашлык">
+            <h2>Овощной шашлык</h2>
+            <p>Помидоры, перцы, баклажаны на шампуре. Для тех, кто не ест мясо.</p>
+        </div>
+    </main>
+    <footer>© 2026 Шашлык</footer>
+</body>
+</html>
